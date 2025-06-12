@@ -52,8 +52,8 @@ main_menu = option_menu(None, ["Home", "Data Cleaning", "EDA"],
     icons=['bi-house-fill',  'bi-droplet-half', 'bi-clipboard2-data'], 
     menu_icon="cast", default_index=0, orientation="horizontal",
     styles={
-        "nav-link": {"font-size": "1.5rem", "text-align": "center", "margin":"0px", "--hover-color": "#eee"},
-        "nav-link-selected": {"font-size": "1.45rem"}
+        "nav-link": {"font-size": "1rem", "text-align": "center", "margin":"0px", "--hover-color": "#eee"},
+        "nav-link-selected": {"font-size": "0.95rem"}
     })
 
 st.query_params["Page"]=main_menu
